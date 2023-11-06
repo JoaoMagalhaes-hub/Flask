@@ -9,7 +9,7 @@ os.environ['FLASK_DEBUG'] = 'True'
 # Configurando o modo de depuração com base na variável de ambiente
 app.debug = os.environ.get('FLASK_DEBUG') == 'True'
 
-# Teste de Glossário
+# Teste de Glossário 
 glossario = [
     ['Internet', 'Acessar internet'],
     ['Java', 'Pior linguagem de Programação'],
